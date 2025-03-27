@@ -20,7 +20,8 @@ const questions = {
         { q: "Apa nama mata uang Jepang?", options: ["Yuan", "Dolar", "Yen", "Rupiah"], answer: "Yen" },
         { q: "Benua terbesar di dunia adalah?", options: ["Afrika", "Asia", "Eropa", "Amerika"], answer: "Asia" },
         { q: "Negara yang terkenal dengan menara Eiffel adalah?", options: ["Italia", "Spanyol", "Perancis", "Jerman"], answer: "Perancis" },
-        { q: "Siapa presiden pertama Indonesia?", options: ["Soeharto", "Habibie", "Soekarno", "Megawati"], answer: "Soekarno" }
+        { q: "Siapa presiden pertama Indonesia?", options: ["Soeharto", "Habibie", "Soekarno", "Megawati"], answer: "Soekarno" },
+        { q: "Apa nama organisasi perkumpulan negara Asia Tenggara?", options: ["ASIAN", "ASEAN", "SEA", "OSIS"], answer: "ASEAN"}
     ],
     matematika: [
         { q: "Berapakah hasil dari 7 + 5?", options: ["10", "11", "12", "13"], answer: "12" },
