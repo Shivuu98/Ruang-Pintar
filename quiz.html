@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Pintar</title>
+    <link rel="stylesheet" href="style/quiz.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Quiz</a>
+            <a href="learning.html">E-Learning</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="menu">
+            <h1>Latihan Quiz</h1>
+            <p class="opening">
+                Siap untuk tantangan seru? Yuk, uji pengetahuanmu dengan quiz interaktif ini! 
+                Pilih kategori yang paling kamu kuasai atau coba tantangan baru untuk menambah wawasan. 
+                Jangan ragu untuk mencoba lagi dan lihat sejauh mana kamu bisa meningkatkan skor! Siap? 
+                Pilih kategori dan mulailah petualangan pengetahuanmu sekarang!
+            </p>
+            <p>Pilih kategori quiz:</p>
+            <button onclick="startQuiz('ipa')">IPA</button>
+            <button onclick="startQuiz('ips')">IPS</button>
+            <button onclick="startQuiz('matematika')">Matematika</button>
+        </div>
+        
+        <div class="quiz-container" id="quiz-container">
+            <p id="question"></p>
+            <div id="options"></div>
+        </div>
+        <div class="result-container" id="result">
+            <h3>Hasil Quiz</h3>
+            <p id="score"></p>
+            <button onclick="restartQuiz()">Coba Lagi</button>
+        </div>
+        
+        <div class="evaluation-container hidden" id="evaluation-container">
+            <h3>Evaluasi Jawaban</h3>
+            <ul id="evaluation"></ul>
+        </div>
+        
+        <script src="function.js"></script>
+    </main>
+</body>
+</html>
